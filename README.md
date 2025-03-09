@@ -1,5 +1,3 @@
-# Flappy Bird GAme using Flutter
-
 # FluppyBird - A Flutter-Based Flappy Bird Clone  
 
 FluppyBird is a simple Flappy Bird clone built using the **Flutter** framework and the **Flame** game engine. It features smooth animations, realistic physics, and engaging gameplay, making it a fun project to explore Flutter’s game development capabilities.  
