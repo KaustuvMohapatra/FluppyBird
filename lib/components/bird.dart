@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flappy_bird/components/ground.dart';
+import 'package:flappy_bird/components/pipe.dart';
 import 'package:flappy_bird/constants.dart';
 import 'package:flappy_bird/game.dart';
 
@@ -43,7 +44,12 @@ class Bird extends SpriteComponent with CollisionCallbacks{
   @override
   void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
     super.onCollision(intersectionPoints, other);
+    //Collision with ground check
     if(other is Ground){
+      (parent as FlappyBirdGame).gameOver();
+    }
+    //Collision with pipe check
+    if(other is Pipe){
       (parent as FlappyBirdGame).gameOver();
     }
   }
