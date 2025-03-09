@@ -1,16 +1,53 @@
-# flappy_bird
+# Flappy Bird GAme using Flutter
 
-A new Flutter project.
+# FluppyBird - A Flutter-Based Flappy Bird Clone  
 
-## Getting Started
+FluppyBird is a simple Flappy Bird clone built using the **Flutter** framework and the **Flame** game engine. It features smooth animations, realistic physics, and engaging gameplay, making it a fun project to explore Flutter’s game development capabilities.  
 
-This project is a starting point for a Flutter application.
+## Features  
+- Classic Flappy Bird gameplay  
+- Built using Flutter and Flame  
+- Smooth animations & physics  
+- Sound effects (optional)  
+- Score tracking  
 
-A few resources to get you started if this is your first Flutter project:
+## Setup & Installation  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run the game on your local machine, follow these steps:  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **1️⃣ Prerequisites**  
+Ensure you have the following installed:  
+- Flutter SDK (Latest Stable Version) → [Download Here](https://flutter.dev/docs/get-started/install)  
+- Dart SDK (Included with Flutter)  
+- Android Studio or VS Code with Flutter extension  
+- Git for cloning the repository  
+
+### **2️⃣ Clone the Repository**  
+Run the following command to clone the project:  
+
+```sh
+git clone https://github.com/KaustuvMohapatra/FluppyBird.git
+cd FluppyBird
+```
+
+### **3️⃣ Install Dependencies**
+Inside the project folder, run:
+``` sh
+flutter pub get
+```
+
+### **4️⃣ Run the Game**
+For Android emulator or physical device:
+```sh
+flutter run
+```
+
+For Web (if supported):
+```sh
+flutter run -d chrome
+```
+
+## How It Works
+- Tap the screen to make the bird flap and avoid obstacles.
+- The score increases as you pass through pipes.
+- The game ends if the bird hits the ground or a pipe.
