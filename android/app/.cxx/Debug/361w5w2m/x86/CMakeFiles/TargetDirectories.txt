@@ -1,2 +1,0 @@
-C:/Users/kaust/OneDrive/Desktop/Projects/FlappyBird/flappy_bird/android/app/.cxx/Debug/361w5w2m/x86/CMakeFiles/edit_cache.dir
-C:/Users/kaust/OneDrive/Desktop/Projects/FlappyBird/flappy_bird/android/app/.cxx/Debug/361w5w2m/x86/CMakeFiles/rebuild_cache.dir
